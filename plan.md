@@ -64,7 +64,7 @@ This plan describes all changes and additions needed to build the SCULPTRA landi
     - Display a bullet list with the four candidate criteria.
     - Add an accompanying image using a placeholder:
       - **src:**  
-        `https://placehold.co/800x600?text=Mujer+de+40+años+piel+luminosa+expresión+natural+y+segura+con+fondo+suave+beige+turquesa+estilo+fotografía+estética+clínica+luz+cálida+profesional`
+        `https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5dec778f-825f-40be-8ccc-7e2768869821.png`
       - **alt:** “Fotografía de una mujer de 40 años con piel luminosa, expresión natural y segura, en un ambiente clínico de fondo suave beige turquesa.”
     - **Error Handling:** Add an `onError` fallback for the image.
 
@@ -79,7 +79,7 @@ This plan describes all changes and additions needed to build the SCULPTRA landi
     - For each card, create a styled circular element (using Tailwind’s rounded-full and background color `#2CC6C6`) with a step number to mimic an icon.
     - Include an illustrative image with a placeholder:
       - **src:**  
-        `https://placehold.co/800x600?text=Doctora+en+uniforme+blanco+aplicando+tratamiento+facial+en+consultorio+elegante+branding+minimalista+turquesa+Renové+estilo+fotografía+clínica+realista`
+        `https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f6cbb9d0-e14e-4f5a-bca8-3a529c2888fa.png`
       - **alt:** “Doctora en uniforme blanco aplicando tratamiento facial en consultorio elegante con branding minimalista turquesa Renové.”
     - **Error Handling:** Ensure image fallback handling is added.
 
@@ -89,7 +89,7 @@ This plan describes all changes and additions needed to build the SCULPTRA landi
       “Después de dos sesiones con Sculptra, siento mi piel más firme y natural. ¡Me veo rejuvenecida sin perder mi expresión!” – Mariana, 42 años.
     - Add an image using a placeholder:
       - **src:**  
-        `https://placehold.co/800x600?text=Mujer+mexicana+de+40+años+sonriendo+con+confianza+piel+luminosa+fondo+minimalista+beige+suave+estilo+testimonial+estético`
+        `https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/47d012dd-9905-4965-9858-5f2210c2e69d.png`
       - **alt:** “Mujer mexicana de 40 años sonriendo con confianza, piel luminosa, en un fondo minimalista beige suave.”
     - **Layout:** Use a card or split layout for text and image.
 
@@ -99,7 +99,7 @@ This plan describes all changes and additions needed to build the SCULPTRA landi
     - Prominently display a central CTA button with text “Quiero mi valoración con SCULPTRA®” linking to WhatsApp (`https://wa.me/528447804399`).
     - Include an image using a placeholder:
       - **src:**  
-        `https://placehold.co/800x600?text=Vial+y+caja+de+Sculptra+sobre+superficie+elegante+con+luz+suave+branding+Renové+en+fondo+difuminado+estilo+premium`
+        `https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/68291fab-0397-445f-be13-b5bd88028da9.png`
       - **alt:** “Vial y caja de Sculptra sobre una superficie elegante con luz suave y branding Renové en fondo difuminado.”
     - **UI/UX:** Ensure the section is visually engaging with ample spacing.
 
@@ -118,7 +118,7 @@ This plan describes all changes and additions needed to build the SCULPTRA landi
           <img
             src="/sculptra-product.jpg"
             alt="Producto Sculptra con caja y vial en primer plano sobre fondo neutro con logotipo Renové difuminado"
-            onError={(e) => (e.currentTarget.src = "https://placehold.co/1920x1080?text=Producto+Sculptra+imagen+no+disponible")}
+            onError={(e) => (e.currentTarget.src = "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/6da99d39-83fa-43e9-9130-c17fcc727126.png")}
             className="w-full h-auto object-cover"
           />
           <h1 className="mt-6 text-4xl font-bold text-[#2C2C2C]">
@@ -166,9 +166,9 @@ This plan describes all changes and additions needed to build the SCULPTRA landi
           </div>
           <div className="md:w-1/2 p-4">
             <img
-              src="https://placehold.co/800x600?text=Mujer+de+40+años+piel+luminosa+expresión+natural+y+segura+con+fondo+suave+beige+turquesa+estilo+fotografía+estética+clínica+luz+cálida+profesional"
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5dec778f-825f-40be-8ccc-7e2768869821.png"
               alt="Mujer de 40 años con piel luminosa, mirada natural y ambiente clínico con fondo beige turquesa"
-              onError={(e) => (e.currentTarget.src = "https://placehold.co/800x600?text=Imagen+no+disponible")}
+              onError={(e) => (e.currentTarget.src = "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c8eec8a5-5447-48dd-951d-876a9abfa63c.png")}
               className="w-full h-auto object-cover rounded"
             />
           </div>
@@ -195,9 +195,9 @@ This plan describes all changes and additions needed to build the SCULPTRA landi
           </div>
           <div className="mt-8 flex justify-center">
             <img
-              src="https://placehold.co/800x600?text=Doctora+en+uniforme+blanco+aplicando+tratamiento+facial+en+consultorio+elegante+branding+minimalista+turquesa+Renové+estilo+fotografía+clínica+realista"
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f6cbb9d0-e14e-4f5a-bca8-3a529c2888fa.png"
               alt="Doctora en uniforme blanco aplicando tratamiento facial en consultorio elegante con branding minimalista turquesa Renové"
-              onError={(e) => (e.currentTarget.src = "https://placehold.co/800x600?text=Imagen+no+disponible")}
+              onError={(e) => (e.currentTarget.src = "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c8eec8a5-5447-48dd-951d-876a9abfa63c.png")}
               className="w-full max-w-md h-auto object-cover rounded"
             />
           </div>
@@ -211,9 +211,9 @@ This plan describes all changes and additions needed to build the SCULPTRA landi
           <p className="text-center font-bold">– Mariana, 42 años.</p>
           <div className="mt-6 flex justify-center">
             <img
-              src="https://placehold.co/800x600?text=Mujer+mexicana+de+40+años+sonriendo+con+confianza+piel+luminosa+fondo+minimalista+beige+suave+estilo+testimonial+estético"
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/47d012dd-9905-4965-9858-5f2210c2e69d.png"
               alt="Mujer mexicana de 40 años sonriendo con confianza en fondo minimalista beige suave"
-              onError={(e) => (e.currentTarget.src = "https://placehold.co/800x600?text=Imagen+no+disponible")}
+              onError={(e) => (e.currentTarget.src = "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c8eec8a5-5447-48dd-951d-876a9abfa63c.png")}
               className="w-full max-w-md h-auto object-cover rounded"
             />
           </div>
